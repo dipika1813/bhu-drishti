@@ -88,8 +88,8 @@ export const LandingScreen: React.FC<Props> = ({ onSessionReady }) => {
       return;
     }
     const url = URL.createObjectURL(file);
-    setImages((prev) => ({
-      ...prev,
+setImages((prev: UploadedImages) => ({
+        ...prev,
       [slot]: file,
       [`${slot}Preview`]: url,
     }));
