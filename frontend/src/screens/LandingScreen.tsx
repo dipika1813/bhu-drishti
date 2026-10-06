@@ -27,34 +27,34 @@ const MODES: {
   icon: React.ReactNode;
   color: string;
 }[] = [
-  {
-    key: 'single',
-    label: 'Single Image',
-    tag: 'SINGLE SCENE',
-    desc: 'Analyze a single optical or SAR scene using natural-language queries.',
-    slots: 1,
-    icon: <ImageIcon size={18} />,
-    color: '#00d9ff',
-  },
-  {
-    key: 'crossmodal',
-    label: 'Optical + SAR',
-    tag: 'CROSS-MODAL',
-    desc: 'Fuse optical multispectral imagery with Synthetic Aperture Radar backscatter.',
-    slots: 2,
-    icon: <Radio size={18} />,
-    color: '#38bdf8', // Clean sky blue, strictly avoiding purple
-  },
-  {
-    key: 'bitemporal',
-    label: 'Bi-Temporal',
-    tag: 'CHANGE DETECTION',
-    desc: 'Compare before and after acquisitions to detect land-cover transitions and floods.',
-    slots: 2,
-    icon: <GitCompare size={18} />,
-    color: '#ffb020',
-  },
-];
+    {
+      key: 'single',
+      label: 'Single Image',
+      tag: 'SINGLE SCENE',
+      desc: 'Analyze a single optical or SAR scene using natural-language queries.',
+      slots: 1,
+      icon: <ImageIcon size={18} />,
+      color: '#00d9ff',
+    },
+    {
+      key: 'crossmodal',
+      label: 'Optical + SAR',
+      tag: 'CROSS-MODAL',
+      desc: 'Fuse optical multispectral imagery with Synthetic Aperture Radar backscatter.',
+      slots: 2,
+      icon: <Radio size={18} />,
+      color: '#38bdf8', // Clean sky blue, strictly avoiding purple
+    },
+    {
+      key: 'bitemporal',
+      label: 'Bi-Temporal',
+      tag: 'CHANGE DETECTION',
+      desc: 'Compare before and after acquisitions to detect land-cover transitions and floods.',
+      slots: 2,
+      icon: <GitCompare size={18} />,
+      color: '#ffb020',
+    },
+  ];
 
 async function urlToFile(url: string, name: string): Promise<File> {
   const res = await fetch(url);
@@ -88,8 +88,8 @@ export const LandingScreen: React.FC<Props> = ({ onSessionReady }) => {
       return;
     }
     const url = URL.createObjectURL(file);
-setImages((prev: UploadedImages) => ({
-        ...prev,
+    setImages((prev) => ({
+      ...prev,
       [slot]: file,
       [`${slot}Preview`]: url,
     }));
@@ -341,11 +341,10 @@ setImages((prev: UploadedImages) => ({
                     key={sample.id}
                     onClick={() => loadPresetSample(sample)}
                     disabled={loading}
-                    className={`text-left p-3 border rounded transition-all flex flex-col justify-between gap-2 ${
-                      isSelected
+                    className={`text-left p-3 border rounded transition-all flex flex-col justify-between gap-2 ${isSelected
                         ? 'border-hud-cyan bg-hud-cyan/10'
                         : 'border-hud-border bg-black/40 hover:border-hud-border/80'
-                    }`}
+                      }`}
                   >
                     <div>
                       <div className="flex items-center justify-between text-[10px] font-mono text-hud-cyan mb-1">
@@ -384,11 +383,10 @@ setImages((prev: UploadedImages) => ({
                       setImages({ primary: null, secondary: null, primaryPreview: null, secondaryPreview: null });
                       setErrorMessage(null);
                     }}
-                    className={`p-3.5 border rounded text-left transition-all ${
-                      isActive
+                    className={`p-3.5 border rounded text-left transition-all ${isActive
                         ? 'border-hud-cyan bg-hud-cyan/10 shadow-[0_0_15px_rgba(0,217,255,0.15)]'
                         : 'border-hud-border bg-black/40 hover:border-hud-border/80'
-                    }`}
+                      }`}
                   >
                     <div className="flex items-center justify-between mb-1.5">
                       <span style={{ color: isActive ? m.color : '#4a6080' }}>{m.icon}</span>
@@ -418,10 +416,10 @@ setImages((prev: UploadedImages) => ({
                     ? 'T1 AFTER ACQUISITION'
                     : 'T0 BEFORE BASELINE'
                   : mode === 'crossmodal'
-                  ? isSecondary
-                    ? 'C-BAND SAR RADAR RASTER'
-                    : 'OPTICAL MULTISPECTRAL RASTER'
-                  : 'PRIMARY SATELLITE SCENE';
+                    ? isSecondary
+                      ? 'C-BAND SAR RADAR RASTER'
+                      : 'OPTICAL MULTISPECTRAL RASTER'
+                    : 'PRIMARY SATELLITE SCENE';
 
               const inputRef = isSecondary ? p2Ref : p1Ref;
               const accentColor = isSecondary
@@ -518,11 +516,10 @@ setImages((prev: UploadedImages) => ({
             <button
               onClick={handleStart}
               disabled={!canStart || loading}
-              className={`flex items-center gap-2 px-6 py-2.5 rounded font-mono text-xs tracking-widest uppercase transition-all ${
-                canStart && !loading
+              className={`flex items-center gap-2 px-6 py-2.5 rounded font-mono text-xs tracking-widest uppercase transition-all ${canStart && !loading
                   ? 'border border-hud-cyan bg-hud-cyan/15 text-hud-cyan hover:bg-hud-cyan/25 shadow-[0_0_15px_rgba(0,217,255,0.2)]'
                   : 'border border-hud-border bg-transparent text-hud-muted cursor-not-allowed'
-              }`}
+                }`}
             >
               {loading ? (
                 <>
