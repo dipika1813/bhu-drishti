@@ -38,7 +38,7 @@ export const TASK_LABELS: Record<string, string> = {
 export const TASK_COLORS: Record<string, string> = {
   'single-image-vqa': '#00d9ff',
   'change-vqa': '#ffb020',
-  'fusion': '#a855f7',
+  'fusion': '#38bdf8', // Restrained sky blue, strictly avoiding purple
   'grounding': '#39ff14',
 };
 
