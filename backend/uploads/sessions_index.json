@@ -1,0 +1,411 @@
+{
+  "5ec6a7ac-d6dd-494a-b1bd-5a868edae404": {
+    "session_id": "5ec6a7ac-d6dd-494a-b1bd-5a868edae404",
+    "mode": "single",
+    "filenames": [
+      "test_optical.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\5ec6a7ac-d6dd-494a-b1bd-5a868edae404_primary.jpg"
+    ],
+    "file1_url": "/uploads/5ec6a7ac-d6dd-494a-b1bd-5a868edae404_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "Landsat-9 OLI-2 (USGS)",
+      "crs": "EPSG:32618 (UTM Zone 18N)",
+      "resolution_m": 30.0,
+      "scene_center": {
+        "lat": 24.83,
+        "lon": 79.21
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 4.3,
+      "num_bands": 11,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791309884.4897118,
+    "is_custom_upload": true
+  },
+  "e292b80e-7a03-4e53-bc7e-17a0904256d2": {
+    "session_id": "e292b80e-7a03-4e53-bc7e-17a0904256d2",
+    "mode": "single",
+    "filenames": [
+      "persistence_test.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\e292b80e-7a03-4e53-bc7e-17a0904256d2_primary.jpg"
+    ],
+    "file1_url": "/uploads/e292b80e-7a03-4e53-bc7e-17a0904256d2_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "Landsat-9 OLI-2 (USGS)",
+      "crs": "EPSG:32618 (UTM Zone 18N)",
+      "resolution_m": 30.0,
+      "scene_center": {
+        "lat": 30.53,
+        "lon": 84.82
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 1.3,
+      "num_bands": 11,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791309884.864842,
+    "is_custom_upload": true
+  },
+  "ed994a9b-4a9e-4f86-bb3d-3350147fcb5d": {
+    "session_id": "ed994a9b-4a9e-4f86-bb3d-3350147fcb5d",
+    "mode": "single",
+    "filenames": [
+      "resolve_test.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\ed994a9b-4a9e-4f86-bb3d-3350147fcb5d_primary.jpg"
+    ],
+    "file1_url": "/uploads/ed994a9b-4a9e-4f86-bb3d-3350147fcb5d_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "RISAT-1A / EOS-04 (ISRO)",
+      "crs": "EPSG:32643 (UTM Zone 43N)",
+      "resolution_m": 2.0,
+      "scene_center": {
+        "lat": 29.43,
+        "lon": 73.12
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 6.3,
+      "num_bands": 2,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791309884.8798692,
+    "is_custom_upload": true
+  },
+  "4709be6b-f601-4711-a7ff-5aeebe374bbd": {
+    "session_id": "4709be6b-f601-4711-a7ff-5aeebe374bbd",
+    "mode": "single",
+    "filenames": [
+      "city.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\4709be6b-f601-4711-a7ff-5aeebe374bbd_primary.jpg"
+    ],
+    "file1_url": "/uploads/4709be6b-f601-4711-a7ff-5aeebe374bbd_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "Sentinel-1B C-SAR (ESA)",
+      "crs": "EPSG:3857 (Web Mercator)",
+      "resolution_m": 10.0,
+      "scene_center": {
+        "lat": 19.42,
+        "lon": 73.27
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 6.2,
+      "num_bands": 2,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791309884.888802,
+    "is_custom_upload": true
+  },
+  "acf92f4e-e78e-4d3b-9b2c-4d97791df4e7": {
+    "session_id": "acf92f4e-e78e-4d3b-9b2c-4d97791df4e7",
+    "mode": "bitemporal",
+    "filenames": [
+      "flood_before.jpg",
+      "flood_after.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\acf92f4e-e78e-4d3b-9b2c-4d97791df4e7_primary.jpg",
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\acf92f4e-e78e-4d3b-9b2c-4d97791df4e7_secondary.jpg"
+    ],
+    "file1_url": "/uploads/acf92f4e-e78e-4d3b-9b2c-4d97791df4e7_primary.jpg",
+    "file2_url": "/uploads/acf92f4e-e78e-4d3b-9b2c-4d97791df4e7_secondary.jpg",
+    "metadata": {
+      "sensor": "Sentinel-1B C-SAR (ESA)",
+      "crs": "EPSG:3857 (Web Mercator)",
+      "resolution_m": 10.0,
+      "scene_center": {
+        "lat": 21.46,
+        "lon": 88.26
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 6.6,
+      "num_bands": 2,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791309885.2197957,
+    "is_custom_upload": true
+  },
+  "c9fc2547-58cf-4199-9f28-c9716ae4c267": {
+    "session_id": "c9fc2547-58cf-4199-9f28-c9716ae4c267",
+    "mode": "single",
+    "filenames": [
+      "optical.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\c9fc2547-58cf-4199-9f28-c9716ae4c267_primary.jpg"
+    ],
+    "file1_url": "/uploads/c9fc2547-58cf-4199-9f28-c9716ae4c267_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "Landsat-9 OLI-2 (USGS)",
+      "crs": "EPSG:32618 (UTM Zone 18N)",
+      "resolution_m": 30.0,
+      "scene_center": {
+        "lat": 41.15,
+        "lon": 80.11
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 7.5,
+      "num_bands": 11,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791309885.5522313,
+    "is_custom_upload": true
+  },
+  "1e117e49-3b58-43eb-91ba-8be56ff41a01": {
+    "session_id": "1e117e49-3b58-43eb-91ba-8be56ff41a01",
+    "mode": "single",
+    "filenames": [
+      "sample-optical-primary.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\1e117e49-3b58-43eb-91ba-8be56ff41a01_primary.jpg"
+    ],
+    "file1_url": "/uploads/1e117e49-3b58-43eb-91ba-8be56ff41a01_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "Landsat-9 OLI-2 (USGS)",
+      "crs": "EPSG:32618 (UTM Zone 18N)",
+      "resolution_m": 30.0,
+      "scene_center": {
+        "lat": 41.57,
+        "lon": 88.35
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 3.7,
+      "num_bands": 11,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791310505.3507545,
+    "is_custom_upload": true
+  },
+  "e98d7094-4736-4839-8378-1ac121bb48e6": {
+    "session_id": "e98d7094-4736-4839-8378-1ac121bb48e6",
+    "mode": "single",
+    "filenames": [
+      "sample-optical-primary.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\e98d7094-4736-4839-8378-1ac121bb48e6_primary.jpg"
+    ],
+    "file1_url": "/uploads/e98d7094-4736-4839-8378-1ac121bb48e6_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "Landsat-9 OLI-2 (USGS)",
+      "crs": "EPSG:32618 (UTM Zone 18N)",
+      "resolution_m": 30.0,
+      "scene_center": {
+        "lat": 41.57,
+        "lon": 88.35
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 3.7,
+      "num_bands": 11,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791310509.3920782,
+    "is_custom_upload": true
+  },
+  "33ea46f0-cc30-49c8-a3ee-6b7e77516319": {
+    "session_id": "33ea46f0-cc30-49c8-a3ee-6b7e77516319",
+    "mode": "single",
+    "filenames": [
+      "sample-optical-primary.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\33ea46f0-cc30-49c8-a3ee-6b7e77516319_primary.jpg"
+    ],
+    "file1_url": "/uploads/33ea46f0-cc30-49c8-a3ee-6b7e77516319_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "Landsat-9 OLI-2 (USGS)",
+      "crs": "EPSG:32618 (UTM Zone 18N)",
+      "resolution_m": 30.0,
+      "scene_center": {
+        "lat": 41.57,
+        "lon": 88.35
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 3.7,
+      "num_bands": 11,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791311283.8494942,
+    "is_custom_upload": true
+  },
+  "fbec9606-4fd9-4196-bb00-1c852339e4be": {
+    "session_id": "fbec9606-4fd9-4196-bb00-1c852339e4be",
+    "mode": "bitemporal",
+    "filenames": [
+      "sample-bitemporal-primary.jpg",
+      "sample-bitemporal-secondary.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\fbec9606-4fd9-4196-bb00-1c852339e4be_primary.jpg",
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\fbec9606-4fd9-4196-bb00-1c852339e4be_secondary.jpg"
+    ],
+    "file1_url": "/uploads/fbec9606-4fd9-4196-bb00-1c852339e4be_primary.jpg",
+    "file2_url": "/uploads/fbec9606-4fd9-4196-bb00-1c852339e4be_secondary.jpg",
+    "metadata": {
+      "sensor": "Sentinel-1B C-SAR (ESA)",
+      "crs": "EPSG:3857 (Web Mercator)",
+      "resolution_m": 10.0,
+      "scene_center": {
+        "lat": 19.24,
+        "lon": 73.1
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 0.4,
+      "num_bands": 2,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791311292.7152908,
+    "is_custom_upload": true
+  },
+  "3be61a6b-27bc-4847-ab26-1280424d7280": {
+    "session_id": "3be61a6b-27bc-4847-ab26-1280424d7280",
+    "mode": "single",
+    "filenames": [
+      "sample-optical-primary.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\3be61a6b-27bc-4847-ab26-1280424d7280_primary.jpg"
+    ],
+    "file1_url": "/uploads/3be61a6b-27bc-4847-ab26-1280424d7280_primary.jpg",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "Landsat-9 OLI-2 (USGS)",
+      "crs": "EPSG:32618 (UTM Zone 18N)",
+      "resolution_m": 30.0,
+      "scene_center": {
+        "lat": 41.57,
+        "lon": 88.35
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 3.7,
+      "num_bands": 11,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791311491.290678,
+    "is_custom_upload": true
+  },
+  "d447c351-230c-4677-8052-78de48c546ca": {
+    "session_id": "d447c351-230c-4677-8052-78de48c546ca",
+    "mode": "crossmodal",
+    "filenames": [
+      "sample-crossmodal-primary.jpg",
+      "sample-crossmodal-secondary.jpg"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\d447c351-230c-4677-8052-78de48c546ca_primary.jpg",
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\d447c351-230c-4677-8052-78de48c546ca_secondary.jpg"
+    ],
+    "file1_url": "/uploads/d447c351-230c-4677-8052-78de48c546ca_primary.jpg",
+    "file2_url": "/uploads/d447c351-230c-4677-8052-78de48c546ca_secondary.jpg",
+    "metadata": {
+      "sensor": "Cartosat-2S (ISRO)",
+      "crs": "EPSG:32643 (UTM Zone 43N)",
+      "resolution_m": 0.65,
+      "scene_center": {
+        "lat": 16.22,
+        "lon": 85.87
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 6.2,
+      "num_bands": 4,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791311967.4215944,
+    "is_custom_upload": true
+  },
+  "c152731f-6854-425e-bc47-e9bb34bbeecd": {
+    "session_id": "c152731f-6854-425e-bc47-e9bb34bbeecd",
+    "mode": "single",
+    "filenames": [
+      "Screenshot 2026-10-02 182251.png"
+    ],
+    "file_paths": [
+      "C:\\Users\\Dipika\\OneDrive\\\u30c9\u30ad\u30e5\u30e1\u30f3\u30c8\\BHUDrishti\\bhu-drishti\\backend\\uploads\\c152731f-6854-425e-bc47-e9bb34bbeecd_primary.png"
+    ],
+    "file1_url": "/uploads/c152731f-6854-425e-bc47-e9bb34bbeecd_primary.png",
+    "file2_url": null,
+    "metadata": {
+      "sensor": "WorldView-3 (Maxar)",
+      "crs": "EPSG:32644 (UTM Zone 44N)",
+      "resolution_m": 0.31,
+      "scene_center": {
+        "lat": 19.87,
+        "lon": 88.69
+      },
+      "acquisition_date": "2024-03-15",
+      "cloud_cover_pct": 2.7,
+      "num_bands": 8,
+      "size_px": [
+        1024,
+        1024
+      ],
+      "is_synthetic_demo": false
+    },
+    "created_at": 1791311986.866196,
+    "is_custom_upload": true
+  }
+}
