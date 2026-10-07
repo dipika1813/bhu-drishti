@@ -51,3 +51,4 @@ The frontend automatically falls back to **client-side mock data** if the backen
 | `sample_sar.jpg` | SAR grayscale radar image |
 | `sample_before.jpg` | Coastal scene before flooding |
 | `sample_after.jpg` | Same area after flooding (use for Bi-Temporal) |
+
