@@ -1,0 +1,26 @@
+services:
+  # Backend: FastAPI (Python)
+  - type: web
+    name: bhu-drishti-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+    healthCheckPath: /api/health
+
+  # Frontend: React/Vite Static Site
+  - type: web
+    name: bhu-drishti-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          name: bhu-drishti-backend
+          type: web
+          property: host

@@ -1,0 +1,37 @@
+# Environment variables - NEVER commit .env files
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# Uploads (user data, do not commit)
+backend/uploads/*.jpg
+backend/uploads/*.jpeg
+backend/uploads/*.png
+backend/uploads/*.tif
+backend/uploads/*.tiff
+backend/uploads/*.webp
+backend/uploads/sessions_index.json
+
+# OS
+.DS_Store
+Thumbs.db
