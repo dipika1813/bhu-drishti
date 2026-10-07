@@ -1,6 +1,10 @@
 import type { Session, QueryResult, AnalysisMode, SampleDataset } from './types';
 
-const BASE = '/api';
+// In production, set VITE_API_BASE_URL to the full backend origin
+// (e.g. https://my-backend.onrender.com). Leave unset in development —
+// Vite's dev-server proxy forwards /api → localhost:8000.
+export const BACKEND_ORIGIN: string = import.meta.env.VITE_API_BASE_URL ?? '';
+const BASE = `${BACKEND_ORIGIN}/api`;
 
 export const BUNDLED_SAMPLES: SampleDataset[] = [
   {
